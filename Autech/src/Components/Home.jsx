@@ -8,8 +8,7 @@ function Home() {
     <div className="home-banner">
       <h1>Welcome to Our Website</h1>
       <p>Experience the best services</p>
-
-      <h1>skdfjkajfs</h1>
+      <h1> hey, my name is aditya</h1>
     </div>
   </div>
    <Hero/></>
