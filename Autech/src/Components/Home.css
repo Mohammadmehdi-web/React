@@ -1,0 +1,69 @@
+/* ✅ Container settings for responsiveness */
+.home-container {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ✅ Background image settings */
+  .home-banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/ReacImage.jpg'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Text color for contrast */
+  }
+  
+  /* ✅ Typography settings */
+  .home-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-banner p {
+    font-size: 1.5rem;
+  }
+  
+  /* 📱 Responsive Design: Adjust for Tablets */
+  @media (max-width: 768px) {
+    .home-banner {
+      background-position: center;
+      padding: 40px;
+    }
+  
+    .home-banner h1 {
+      font-size: 2rem;
+    }
+  
+    .home-banner p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* 📱 Responsive Design: Adjust for Mobile */
+  @media (max-width: 480px) {
+    .home-banner {
+      background-position: top center;
+      padding: 30px;
+    }
+  
+    .home-banner h1 {
+      font-size: 1.5rem;
+    }
+  
+    .home-banner p {
+      font-size: 1rem;
+    }
+  }
+  
